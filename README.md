@@ -59,22 +59,8 @@ The **User Management Dashboard** is a simple web application that allows users 
 ---
 
 ## 📂 Folder Structure 
-user-management-dashboard/
-├── src/
-│   ├── components/
-│   │   ├── AddUser.js
-│   │   ├── EditUser.js
-│   │   ├── UserList.js
-│   ├── App.js
-│   ├── index.js
-│   ├── App.css
-|   ├── App.test.js
-│   ├── index.css
-|   ├── logo.svg
-|   ├── reportWebVitals.js
-|   ├── setupTests.js
-├── package.json
-├── README.md
+ ![Screenshot 2025-01-31 112903](https://github.com/user-attachments/assets/86624df6-f32b-496f-b42a-c8d458e820d0)
+
 
 ### ⚠️ Challenges Faced
   1. Mock API Limitations: JSONPlaceholder does not persist changes.
