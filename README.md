@@ -68,6 +68,6 @@ The **User Management Dashboard** is a simple web application that allows users 
   3. Error Handling: Ensuring smooth user experience.
 
 ### 🎯 Future Improvements
-🔹 Implement a real backend (Node.js + Express + MongoDB).
-🔹 Add authentication (Login & Role-based access control).
-🔹 Enhance user experience with search & filtering.
+  1. Implement a real backend (Node.js + Express + MongoDB).
+  2. Add authentication (Login & Role-based access control).
+  3. Enhance user experience with search & filtering.
