@@ -5,7 +5,7 @@ The **User Management Dashboard** is a simple web application that allows users 
 
 ---
 
-Our site is live at  usermanagementdashboardbythilaksagarn.netlify.app
+Our site is live at [ usermanagementdashboardbythilaksagarn.netlify.app](https://usermanagementdashboardbythilaksagarn.netlify.app/)
 ## 📸 Screenshots
 ![image](https://github.com/user-attachments/assets/2a7be88a-240e-40e8-a728-db6d5dbee860)
 
