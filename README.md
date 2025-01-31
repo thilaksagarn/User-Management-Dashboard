@@ -31,18 +31,57 @@ The **User Management Dashboard** is a simple web application that allows users 
 
 ---
 
-## 📦 Installation & Setup  
-
-1️⃣ Clone the repository:  
+## 📦 Installation  
+1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/user-management-dashboard.git
-   cd user-management-dashboard
-2️⃣ Install dependencies:
+   git clone https://github.com/thilaksagarn/User-Management-Dashboard.git
+2. Navigate to the project directory:
+    ```bash
+    cd User-Management-Dashboard
+3. Install dependencies:
    ```bash
    npm install
-3️⃣ Start the application:
+4.  Start the application:
     ```bash
-   npm start
-4️⃣ Open the app in your browser:
-   ```bash
-   http://localhost:3000/
+    npm start
+4. Open http://localhost:3000/ in a browser to run the application:
+
+
+## 🔗 API Endpoints Used  
+
+| Action       | Method | Endpoint |
+|-------------|--------|------------------------------------------|
+| **Fetch Users** | GET    | `https://jsonplaceholder.typicode.com/users` |
+| **Add User**   | POST   | `https://jsonplaceholder.typicode.com/users` |
+| **Edit User**  | PUT    | `https://jsonplaceholder.typicode.com/users/{id}` |
+| **Delete User**| DELETE | `https://jsonplaceholder.typicode.com/users/{id}` |
+
+---
+
+## 📂 Folder Structure 
+user-management-dashboard/
+├── src/
+│   ├── components/
+│   │   ├── AddUser.js
+│   │   ├── EditUser.js
+│   │   ├── UserList.js
+│   ├── App.js
+│   ├── index.js
+│   ├── App.css
+|   ├── App.test.js
+│   ├── index.css
+|   ├── logo.svg
+|   ├── reportWebVitals.js
+|   ├── setupTests.js
+├── package.json
+├── README.md
+
+### ⚠️ Challenges Faced
+  1. Mock API Limitations: JSONPlaceholder does not persist changes.
+  2. State Management: Handling form state for user modifications.
+  3. Error Handling: Ensuring smooth user experience.
+
+### 🎯 Future Improvements
+🔹 Implement a real backend (Node.js + Express + MongoDB).
+🔹 Add authentication (Login & Role-based access control).
+🔹 Enhance user experience with search & filtering.
